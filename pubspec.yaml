@@ -1,0 +1,48 @@
+name: buzzoff
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/logo.png
+    - images/google.png
+    - images/map.png
+    - images/complains.png
+    - images/analytics.png
+    - images/fines_and_payments.png
+    - images/community.png
+    - images/image_placeholder.png
+    - images/pfp.png
+    - images/patient_form_icon.png
+    - images/map_icon.png
+    - images/patient_management_icon.png
+    - images/analytics_icon.png
+
+  fonts:
+    - family: Quicksand
+      fonts:
+        - asset: fonts/static/Quicksand-Regular.ttf
+        - asset: fonts/static/Quicksand-Medium.ttf
+          weight: 500
+        - asset: fonts/static/Quicksand-SemiBold.ttf
+          weight: 600
+        - asset: fonts/static/Quicksand-Bold.ttf
+          weight: 700
